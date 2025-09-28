@@ -118,7 +118,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - P.Sai Sriram
 - Prerna Chhabra
-- Sindhu Musturu
+- Thirukovela Moulya
 - NIKHIL KRISHNA
 - V.Kishan
 
