@@ -1,47 +1,113 @@
 # 🚗 US Road Accidents Analysis (2016-2023)
 
+## 📖 Table of Contents
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Installation & Setup](#-installation--setup)
+- [Usage Guide](#-usage-guide)
+- [Analysis Components](#-analysis-components) 
+- [Key Findings](#-key-findings)
+- [Data Processing](#-data-processing)
+- [Contributing](#-contributing)
+- [Known Limitations](#-known-limitations)
+- [License](#-license)
+- [Team](#-team)
+- [Acknowledgements](#-acknowledgements)
+
 ## 📊 Project Overview
 
-A comprehensive analysis of US road accidents using a dataset containing approximately 7.7 million accidents recorded between 2016-2023. The project explores various aspects of accidents through multiple analytical lenses to understand patterns, causes, and potential prevention strategies.
+A comprehensive data science project analyzing US road accidents from 2016-2023, leveraging a massive dataset of 7.7 million accident records. The project employs advanced data analysis techniques to uncover patterns in road safety and accident occurrence, aiming to provide actionable insights for reducing accident risks.
 
-## 🎯 Objectives
+### Purpose
+- Identify accident patterns and high-risk factors
+- Enable data-driven road safety improvements
+- Provide insights for traffic management
+- Support policy-making with empirical evidence
 
-- Analyze accident patterns and severity across different conditions
-- Identify high-risk locations and time periods
-- Understand the impact of weather and road conditions on accidents
-- Generate actionable insights for road safety improvements
+## ✨ Features
 
-## 📂 Repository Structure
+### Core Analysis Components
+- Univariate distribution analysis
+- Bivariate relationship exploration
+- Geospatial hotspot mapping
+- Temporal pattern detection
+- Weather impact assessment
+- Infrastructure analysis
 
-This repository contains four main analytical notebooks:
+### Visualization Capabilities
+- Interactive heatmaps
+- Geographic accident plotting
+- Statistical distribution plots
+- Correlation matrices
+- Time series visualizations
 
-### 1. 📈 Univariate Analysis (`Univariate_Analysis.ipynb`)
+## 🛠 Technology Stack
 
-- Basic data exploration and cleaning
+### Core Technologies
+- Python 3.x
+- Jupyter Notebooks
+
+### Key Libraries
+- **Data Processing**: 
+  - Pandas (1.x+)
+  - NumPy (1.x+)
+- **Visualization**: 
+  - Matplotlib
+  - Seaborn
+  - Folium
+- **Geospatial Analysis**:
+  - GeoPandas
+  - Shapely
+- **Data Loading**:
+  - Kaggle API
+
+## 📂 Project Structure
+
+This repository contains six main analytical notebooks:
+
+### 1. 📊 EDA Overview (`RoadSafe_Analytics_EDA.ipynb`)
+
+- Initial data loading and preprocessing
+- Dataset characteristics and quality assessment
+- Preliminary insights extraction
+- Missing value analysis and data cleaning
+
+### 2. 📈 Univariate Analysis (`Univariate_Analysis.ipynb`)
+
 - Distribution analysis of individual variables
 - Time-based patterns (yearly, monthly, hourly)
-- Missing value analysis
+- Categorical variable frequencies
+- Numerical variable distributions
 
-### 2. 🔄 Bivariate Analysis (`Bivarient_Analysis.ipynb`)
+### 3. 🔄 Bivariate Analysis (`Bivarient_Analysis.ipynb`)
 
 - Relationship between accident severity and weather conditions
 - Impact of visibility on accident severity
 - Correlation analysis between numerical variables
 - Traffic features vs accident severity
 
-### 3. 🗺️ Geospatial Analysis (`Geospaal_and_Location_Based_Analysis.ipynb`)
+### 4. 📊 Multivariate Analysis (`Multivarient_analysis.ipynb`)
+
+- Complex relationships between multiple variables
+- Principal Component Analysis (PCA)
+- Feature importance analysis
+- Interaction effects between variables
+
+### 5. 🗺️ Geospatial Analysis (`Geospaal_and_Location_Based_Analysis.ipynb`)
 
 - Nationwide accident hotspot visualization
 - State-level accident density analysis
 - City-level accident patterns
 - Interactive heatmaps using Folium
 
-### 4. 📊 EDA Overview (`RoadSafe_Analytics_EDA.ipynb`)
+### 6. 📌 Hypothesis Testing (`Hypothesis_Testing.ipynb`)
 
-- Initial data loading and preprocessing
-- Dataset characteristics
-- Preliminary insights
-- Data quality assessment
+- Statistical significance testing
+- Weather impact hypothesis validation
+- Time-of-day effect analysis
+- Infrastructure influence testing
 
 ## 🔑 Key Findings
 
@@ -96,7 +162,9 @@ pip install pandas numpy matplotlib seaborn folium geopandas
    - RoadSafe_Analytics_EDA.ipynb
    - Univariate_Analysis.ipynb
    - Bivarient_Analysis.ipynb
+   - Multivarient_analysis.ipynb
    - Geospaal_and_Location_Based_Analysis.ipynb
+   - Hypothesis_Testing.ipynb
 
 ## 💡 Recommendations
 
@@ -127,4 +195,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - Sobhan Moosavi for creating and maintaining the US Accidents dataset
 - Kaggle for hosting the dataset
 - Contributors to the Python data science ecosystem
-- 
