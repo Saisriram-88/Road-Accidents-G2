@@ -184,11 +184,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Authors
 
-- P.Sai Sriram
-- Prerna Chhabra
-- Thirukovela Moulya
-- NIKHIL KRISHNA
-- V.Kishan
+- [P.Sai Sriram](https://github.com/Saisriram-88)
+- [Prerna Chhabra](https://github.com/Prerna1317)
+- [Thirukovela Moulya](https://github.com/rishi300101)
+- [NIKHIL KRISHNA](https://github.com/nikhil-krishna-2003)
+- [V.Kishan](https://github.com/kishuverse)
 
 ## 🙏 Acknowledgements
 
